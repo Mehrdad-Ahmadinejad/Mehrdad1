@@ -3,10 +3,13 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Research Group!
-This is the main page where you can introduce yourself and your research interests.
+# Welcome to My Website!
+I am a **Ph.D. Researcher in Mechanical Engineering** at **University of Vermont**. My research focuses on **Computational Fluid Dynamics (CFD), Renewable Energy, and Machine Learning in Engineering**.
 
-## Navigation
-- [Research](research.md)
-- [People](people.md)
-- [Publications](publications.md)
+Check out my:
+- **[Research](research.md)**
+- **[Publications](publications.md)**
+- **[Projects](projects.md)**
+- **[CV](cv.md)** for job opportunities!
+
+Let's connect! 🚀
