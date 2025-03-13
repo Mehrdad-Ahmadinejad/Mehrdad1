@@ -3,7 +3,11 @@ layout: default
 title: Research
 ---
 
-# Our Research
-Details about our research on **CFD, Heat Transfer, Renewable Energy**, etc.
+# Research
+I focus on:
+- **Computational Fluid Dynamics (CFD)**
+- **Heat Transfer & Renewable Energy**
+- **Machine Learning Applications in Engineering**
+- **Advanced Thermodynamic Cycle Optimization**
 
-[← Back to Home](index.md)
+More details coming soon!
