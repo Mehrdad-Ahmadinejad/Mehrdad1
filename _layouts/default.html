@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mehrdad Ahmadinejad - Home</title>
+    <title>{{ page.title }}</title>
 
     <style>
         /* General Page Styling */
@@ -18,7 +18,7 @@
         .hero {
             width: 100%;
             height: 350px;
-            background-image: url('assets/pic.png');
+            background-image: url('/pic.png'); /* Make sure this file is in the root directory */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -89,26 +89,26 @@
 
     <!-- Navigation Bar -->
     <nav>
-        <a href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="projects.html">Projects</a>
-        <a href="awards.html">Awards</a>
-        <a href="cv.html">CV</a>
-        <a href="contact.html">Contact</a>
+        <a href="/">Home</a>
+        <a href="/research/">Research</a>
+        <a href="/publications/">Publications</a>
+        <a href="/teaching/">Teaching</a>
+        <a href="/projects/">Projects</a>
+        <a href="/awards/">Awards</a>
+        <a href="/cv/">CV</a>
+        <a href="/contact/">Contact</a>
     </nav>
 
     <!-- Profile Section -->
     <div class="profile">
-        <img src="assets/pic.png" alt="Mehrdad Ahmadinejad" class="profile-img">
+        <img src="/pic.png" alt="Mehrdad Ahmadinejad" class="profile-img">
         <h1>Mehrdad Ahmadinejad</h1>
         <p>Ph.D. Researcher | Mechanical Engineering | University of Vermont</p>
     </div>
 
     <!-- Main Content -->
     <div class="container">
-        <p>Welcome to my personal website where I share my research, projects, and publications.</p>
+        {{ content }}
     </div>
 
 </body>
