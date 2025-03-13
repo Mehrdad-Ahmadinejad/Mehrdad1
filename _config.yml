@@ -1,10 +1,4 @@
 title: "Mehrdad Ahmadinejad"
 description: "Ph.D. Researcher | Mechanical Engineering | University of Vermont"
-theme: jekyll-theme-cayman  # Change this if you want a different theme
-
-# Navigation Links
-nav:
-  Home: "index.md"
-  Research: "research.md"
-  People: "people.md"
-  Publications: "publications.md"
+theme: null  # Disabling default theme since we are customizing it
+markdown: kramdown
