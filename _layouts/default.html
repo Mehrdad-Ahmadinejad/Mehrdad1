@@ -17,7 +17,7 @@
         /* Background Image Section */
         .hero {
             width: 100%;
-            height: 300px;
+            height: 350px; /* Increased height for better visibility */
             background: url('/pic.png') no-repeat center center/cover;
             display: flex;
             align-items: center;
@@ -33,7 +33,9 @@
             background-color: #333;
             overflow: hidden;
             text-align: center;
-            padding: 10px 0;
+            padding: 15px 0; /* Creates more space between nav and profile */
+            position: relative;
+            z-index: 10;
         }
         nav a {
             display: inline-block;
@@ -50,7 +52,7 @@
         /* Profile Section */
         .profile {
             text-align: center;
-            margin-top: -75px;
+            margin-top: 30px; /* Pushes the profile section down */
         }
         .profile-img {
             width: 150px;
@@ -59,7 +61,7 @@
             border: 5px solid white;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
             display: block;
-            margin: 0 auto;
+            margin: 20px auto; /* Adds space between the image and navigation bar */
         }
 
         /* Main Content Section */
