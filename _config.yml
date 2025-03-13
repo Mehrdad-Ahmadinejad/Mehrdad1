@@ -1,4 +1,5 @@
 title: "Mehrdad Ahmadinejad"
 description: "Ph.D. Researcher | Mechanical Engineering | University of Vermont"
-theme: null  # Disabling default theme since we are customizing it
+theme: null  # Disabling default Jekyll theme
 markdown: kramdown
+permalink: pretty  # Enables clean URLs (removes .html)
